@@ -1,0 +1,6 @@
+[[langauge]]
+name="d2"
+auto-format=true
+scope="text.d2"
+file-types=["d2"]
+roots=[]

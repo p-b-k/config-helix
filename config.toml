@@ -1,0 +1,12 @@
+theme = "pbk_dark"
+
+[editor]
+color-modes = true
+
+[editor.smart-tab]
+enable = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
