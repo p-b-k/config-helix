@@ -5,7 +5,7 @@ constant = "purple"
 "constant.builtin" = "orange"
 variable = "red"
 attribute = "brown"
-comment = "light-gray"
+comment = { fg = "#809FCF", modifiers = [ "italic" ] }
 special = "purple"
 "punctuation" = "red"
 "punctuation.bracket" = "purple"
@@ -45,6 +45,8 @@ tag = "red"
 "ui.virtual.jump-label" = { fg = "pink", modifiers = ["bold"] }
 "ui.picker.header.column" = { fg = "orange", underline.style = "line" }
 "ui.picker.header.column.active" = { fg = "purple", modifiers = ["bold"], underline.style = "line" }
+"ui.linenr" = { fg = "line-no" }
+"ui.linenr.selected" = { fg = "line-no-sel", modifiers = ["bold"] }
 
 # Diagnostics
 "diagnostic" = { underline = { style = "curl" } }
@@ -80,7 +82,9 @@ hint = { fg = "green", modifiers = ["bold"] }
 white = "#D5D8DA"
 gray = "#2E303E"
 light-gray = "#6C6F93"
-bg = "#321E06"
+bg = "#281006"
+line-no = "#B29E06"
+line-no-sel = "#00ff00"
 dark-bg = "#16161C"
 pink = "#EE64AE"
 selection = "#353747"
